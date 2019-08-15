@@ -13,6 +13,7 @@
 		FB019F8A2303A04E00FB9CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB019F892303A04E00FB9CA1 /* Assets.xcassets */; };
 		FB019F8D2303A04E00FB9CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB019F8B2303A04E00FB9CA1 /* LaunchScreen.storyboard */; };
 		FB019F982303A04E00FB9CA1 /* eyesaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB019F972303A04E00FB9CA1 /* eyesaiTests.swift */; };
+		FB019FA42305163E00FB9CA1 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB019FA32305163E00FB9CA1 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FB019F932303A04E00FB9CA1 /* eyesaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyesaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB019F972303A04E00FB9CA1 /* eyesaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyesaiTests.swift; sourceTree = "<group>"; };
 		FB019F992303A04E00FB9CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB019FA32305163E00FB9CA1 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../../../Downloads/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FB019F822303A04C00FB9CA1 /* AppDelegate.swift */,
 				FB019F842303A04C00FB9CA1 /* ViewController.swift */,
 				FB019F862303A04C00FB9CA1 /* Main.storyboard */,
+				FB019FA32305163E00FB9CA1 /* SqueezeNet.mlmodel */,
 				FB019F892303A04E00FB9CA1 /* Assets.xcassets */,
 				FB019F8B2303A04E00FB9CA1 /* LaunchScreen.storyboard */,
 				FB019F8E2303A04E00FB9CA1 /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB019F852303A04C00FB9CA1 /* ViewController.swift in Sources */,
+				FB019FA42305163E00FB9CA1 /* SqueezeNet.mlmodel in Sources */,
 				FB019F832303A04C00FB9CA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
